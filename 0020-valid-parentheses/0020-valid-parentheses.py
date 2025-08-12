@@ -11,4 +11,4 @@ class Solution:
             else:
                 st.append(char)
 
-        return not st
+        return not st 
