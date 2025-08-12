@@ -5,7 +5,7 @@ class Solution:
         cS={}
         cT={}
         for i in s:
-            cS[i]=cS.get('i',0)+1
+            cS[i]=cS.get(i,0)+1
         for i in t:
-            cT[i]=cT.get('i',0)+1
+            cT[i]=cT.get(i,0)+1
         return cS==cT
